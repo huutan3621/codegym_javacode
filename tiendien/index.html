@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr{
+            font-size: 15px;
+        }
+        button{
+            font-size: 15px;
+        }
+        td{
+            width: 128px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Số điện tiêu thụ (kW)</td>
+            <td><input type="number" id="elec_num"></td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="cal()">Tổng</button>
+            </td>
+            <td id="result"></td>
+        </tr>
+    </table>
+    <script src="dien.js"></script>
+</body>
+</html>

@@ -6,10 +6,10 @@ function check_bmi(){
     if(bmi<18){
         document.getElementById("conclude").innerHTML="Gầy";
     }
-    else(bmi>=18 && bmi<=25){
+    else if(bmi>=18 && bmi<=25){
         document.getElementById("conclude").innerHTML="Bình thường";
     }
-    else(bmi>25){
+    else if(bmi>25){
         document.getElementById("conclude").innerHTML="Bình thường";
     }
     else{
